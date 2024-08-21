@@ -1,0 +1,54 @@
+.wrap-input-14 .input {
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    border: 0;
+    padding: 7px 15px;
+    border: 1px solid 
+  #ccc;
+    position: relative;
+    background: 
+  transparent;
+    height: 36px;
+    
+  }
+  
+  .wrap-input-14 .input:focus {
+    outline: none;
+  }
+  
+  .wrap-input-14 {
+    width: 80%;
+    margin: 40px 3%;
+    position: relative;
+  }
+  
+  .wrap-input-14 .input ~ .focus-bg:before,
+  .wrap-input-14 .input ~ .focus-bg:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background-color: 
+  #fff;
+    transition: 0.3s;
+    z-index: -1;
+  }
+  .wrap-input-14 .input:focus ~ .focus-bg:before {
+    transition: 0.3s;
+    width: 50%;
+    height: 100%;
+  }
+  .wrap-input-14 .input ~ .focus-bg:after {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+  }
+  .wrap-input-14 .input:focus ~ .focus-bg:after {
+    transition: 0.3s;
+    width: 50%;
+    height: 100%;
+  }
